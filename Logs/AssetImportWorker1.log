@@ -15,7 +15,7 @@ C:/Users/maria/Desktop/My project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-65250
+55299
 Successfully changed project path to: C:/Users/maria/Desktop/My project
 C:/Users/maria/Desktop/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/maria/Desktop/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21012]  Target information:
+Player connection [8428]  Target information:
 
-Player connection [21012]  * "[IP] 172.17.95.148 [Port] 0 [Flags] 2 [Guid] 3528971813 [EditorId] 3528971813 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-QH0H80MJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8428]  * "[IP] 172.17.66.223 [Port] 0 [Flags] 2 [Guid] 1694810041 [EditorId] 1694810041 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-QH0H80MJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [21012] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [21012] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8428] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8428] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 8.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 14.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.41f1 (0f988161febf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Resources/UnitySubsystems
@@ -72,44 +72,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005874 seconds.
-- Loaded All Assemblies, in  0.309 seconds
+Registered in 0.008377 seconds.
+- Loaded All Assemblies, in  0.564 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.247 seconds
-Domain Reload Profiling: 556ms
-	BeginReloadAssembly (98ms)
+- Finished resetting the current domain, in  0.448 seconds
+Domain Reload Profiling: 1011ms
+	BeginReloadAssembly (188ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (123ms)
-		LoadAssemblies (96ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (185ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (122ms)
-			TypeCache.Refresh (120ms)
-				TypeCache.ScanAssembly (109ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (248ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (186ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (449ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (205ms)
+		SetupLoadedEditorAssemblies (367ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (15ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (141ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,50 +118,50 @@ Domain Reload Profiling: 556ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.557 seconds
+- Loaded All Assemblies, in  0.817 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.691 seconds
-Domain Reload Profiling: 1247ms
-	BeginReloadAssembly (137ms)
+- Finished resetting the current domain, in  0.884 seconds
+Domain Reload Profiling: 1699ms
+	BeginReloadAssembly (214ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (340ms)
-		LoadAssemblies (252ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (481ms)
+		LoadAssemblies (382ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (161ms)
-			TypeCache.Refresh (138ms)
-				TypeCache.ScanAssembly (126ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (692ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (202ms)
+				TypeCache.ScanAssembly (186ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (884ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (563ms)
+		SetupLoadedEditorAssemblies (739ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (56ms)
-			ProcessInitializeOnLoadAttributes (475ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (625ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 6.43 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 5.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3277 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (54.8 KB). Loaded Objects now: 3744.
-Memory consumption went from 121.9 MB to 121.9 MB.
-Total: 4.127900 ms (FindLiveObjects: 0.308400 ms CreateObjectMapping: 0.257200 ms MarkObjects: 3.453700 ms  DeleteObjects: 0.106700 ms)
+Unloading 19 unused Assets / (54.5 KB). Loaded Objects now: 3744.
+Memory consumption went from 122.0 MB to 121.9 MB.
+Total: 5.833800 ms (FindLiveObjects: 0.513500 ms CreateObjectMapping: 0.178300 ms MarkObjects: 5.011800 ms  DeleteObjects: 0.128500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,10 +179,198 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 186054.452694 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ae5280ad91af67e2a353905758f96678') in 0.002753 seconds
+  Time since last request: 238329.468422 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_long_grass.fbx
+  artifactKey: Guid(88050d15f1d8df947b6901a96ce9ea87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/models/plants/SM_long_grass.fbx using Guid(88050d15f1d8df947b6901a96ce9ea87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2f5a430cf91a72e895a641c05cfd058a') in 0.157258 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_forget-me-not.fbx
+  artifactKey: Guid(0276d9a78ab538743ad74583a8580e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/models/plants/SM_forget-me-not.fbx using Guid(0276d9a78ab538743ad74583a8580e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7ec2f5647264e602b7738f6283c3c836') in 0.012145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_swamp_hummock.fbx
+  artifactKey: Guid(5e5ee18504bee5e4a91143ecf6981c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/models/plants/SM_swamp_hummock.fbx using Guid(5e5ee18504bee5e4a91143ecf6981c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dddc7fc57f4563d80ff2917c49717732') in 0.028032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_cattail.fbx
+  artifactKey: Guid(5198ba041439b224db5f88a3ced1ff39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/models/plants/SM_cattail.fbx using Guid(5198ba041439b224db5f88a3ced1ff39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3575c25e9693bbd8b307d879bb76c4c3') in 0.018057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_grass_3.fbx
+  artifactKey: Guid(4403b909d72a2a542bcf9c58d2353184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/models/plants/SM_grass_3.fbx using Guid(4403b909d72a2a542bcf9c58d2353184) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6ba2043163be0822243bda9fb1f2262b') in 0.024109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_cane.fbx
+  artifactKey: Guid(fee4abc8cabce6b439c9d1dc2bee791e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/models/plants/SM_cane.fbx using Guid(fee4abc8cabce6b439c9d1dc2bee791e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c98ebd81a16b51a7dd15cd0892969c34') in 0.015602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_poppy.fbx
+  artifactKey: Guid(b3a489a97524e914e8f2cef140c2c827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/models/plants/SM_poppy.fbx using Guid(b3a489a97524e914e8f2cef140c2c827) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '89fe4ad021fd74078b8e04c20afa5192') in 0.012897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 32.082502 seconds.
+  path: Assets/coniferous_forest/Prefabs/trees/SM_medium_spruce.prefab
+  artifactKey: Guid(dd5f7a44c20c42c408829e5f15fb8a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/trees/SM_medium_spruce.prefab using Guid(dd5f7a44c20c42c408829e5f15fb8a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '51c067f9a87c0f3d9a5af96d4d8f345a') in 0.053529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/coniferous_forest/Prefabs/trees/SM_pine_1.prefab
+  artifactKey: Guid(e7d88c41465924f4faec967fbbd1adc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/trees/SM_pine_1.prefab using Guid(e7d88c41465924f4faec967fbbd1adc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e2b687ced4e50c27dc5750071280711f') in 0.012257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/coniferous_forest/Prefabs/trees/SM_pine_3.prefab
+  artifactKey: Guid(cb9b3dd8aac6c164f91fca3ce64be609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/trees/SM_pine_3.prefab using Guid(cb9b3dd8aac6c164f91fca3ce64be609) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fcf2bbb047497fdec1052ad001f7b474') in 0.022859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 6.444460 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_bush (2).prefab
+  artifactKey: Guid(d61ace0ef90a0b74b83035631d25cf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_bush (2).prefab using Guid(d61ace0ef90a0b74b83035631d25cf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '344ef81827d0b661136bb8e78d52b8d2') in 0.015370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.001917 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_cane.prefab
+  artifactKey: Guid(84b5de87baa1de24abc7ebc6db8ed566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_cane.prefab using Guid(84b5de87baa1de24abc7ebc6db8ed566) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a93a005e28f13d6bb132d845bd8ab95d') in 0.012976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.012673 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_dandelion.prefab
+  artifactKey: Guid(28efea9479c6f4648951779bd02a0388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_dandelion.prefab using Guid(28efea9479c6f4648951779bd02a0388) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '66aed8b57cd7b43bf8852cda06e11e91') in 0.014610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.005470 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_forget-me-not.prefab
+  artifactKey: Guid(0727808b6ec787a4488d8e3ee98bd803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_forget-me-not.prefab using Guid(0727808b6ec787a4488d8e3ee98bd803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5a4070a349087df93bf1d0ed8e04787c') in 0.013671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.001827 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_grass_2.prefab
+  artifactKey: Guid(28e3ebbd4ce741b4b9d3c5097a9b2689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_grass_2.prefab using Guid(28e3ebbd4ce741b4b9d3c5097a9b2689) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'be9f34b7e310810fe2e613c2fd0e9c86') in 0.011846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.006125 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_long_grass.prefab
+  artifactKey: Guid(878bc833b188d914ca76cf4208060ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_long_grass.prefab using Guid(878bc833b188d914ca76cf4208060ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6df0f5fba5329231e77462556af1b32d') in 0.012643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.012867 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_reed.prefab
+  artifactKey: Guid(cb1a301688f42c24d85b353137ed2ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_reed.prefab using Guid(cb1a301688f42c24d85b353137ed2ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '65dd9658658e538d8bcfae1273838339') in 0.017882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000731 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_tamarind.prefab
+  artifactKey: Guid(6b5d62e7bddf6a54f857d4599d7c473f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_tamarind.prefab using Guid(6b5d62e7bddf6a54f857d4599d7c473f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a89e67d00f4980f8d748ebf7635a2379') in 0.014800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.003701 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_water_lily_2.prefab
+  artifactKey: Guid(ea7f9ef8a22fb2242b8aad01bbbae2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_water_lily_2.prefab using Guid(ea7f9ef8a22fb2242b8aad01bbbae2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd4c949881685a9296016faf9eda0946a') in 0.012487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
